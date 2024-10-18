@@ -1,0 +1,64 @@
+/* Styling the navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fbf5df9c;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Logo styling */
+.navbar-logo h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Links in the navbar */
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-links li {
+    margin: 0;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #d1a854;
+}
+
+/* Social and search icons */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Search bar styling */
+.search-bar {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+/* Icon styles */
+.navbar-icons a {
+    font-size: 1.2rem;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.navbar-icons a:hover {
+    color: #d1a854;
+}
